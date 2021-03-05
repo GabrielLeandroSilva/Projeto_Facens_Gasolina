@@ -22,10 +22,10 @@ public class MainActivity extends AppCompatActivity {
         TextInputEditText gasoline = findViewById(R.id.textInputEditText2);
         TextView result = findViewById(R.id.textView3);
         
-        if(Float.parseFloat(alcool.getText().toString()) > Float.parseFloat(gasoline.getText().toString())) {
-            result.setText("Resultado: Gasolina é a melhor opção");
-        } else {
+        if(Float.parseFloat(alcool.getText().toString()) <= Float.parseFloat(gasoline.getText().toString()) * 0.7f) {
             result.setText("Resultado: Alcool é a melhor opção");
+        } else {
+            result.setText("Resultado: Gasolina é a melhor opção");
         }
 
     }
