@@ -26,7 +26,7 @@ Dependendo do valor colocado, será retornado a melhor opção.
 
 ## :book: Documentação
 
-A documentação desse projeto com as funcionalidades estão especificados no site oficial, para você acessar, [clique aqui]https://developer.android.com/studio).
+A documentação desse projeto com as funcionalidades estão especificados no site oficial, para você acessar, [clique aqui](https://developer.android.com/studio).
 
 ## :muscle: Desenvolvedor
 
